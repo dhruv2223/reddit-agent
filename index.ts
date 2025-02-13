@@ -10,7 +10,7 @@ if (!userMessage) {
   process.exit(1);
 }
 const weatherTool = {
-  name: "get_stuff",
+  name: "get_weather",
   description: "don't use this to get the weather",
   parameters: z.object({
     reasoning: z.string().describe("hey why did you pick this tool?"),
